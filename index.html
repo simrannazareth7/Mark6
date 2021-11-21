@@ -2,16 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banana Talk</title>
-     <link href="style.css" rel="stylesheet"/>
-     <script>
-         console.log("Ji")
-     </script>
+    <title>Speak Banana</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="https://kit.fontawesome.com/8431ee0e2e.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    
+    <!-- nav -->
+    <nav>
+        <div class="heading-nav">
+            <h1><a href="/dist/index.html">Speak Banana</a></h1>
+            <p>Learn how  To speak the Minions lang. Banana!</p>
+        </div>
+    </nav>
+    
+    <!-- input text-area -->
+    <section>
+        <textarea class="text-area" name="text-area-input" id="text-area-input" cols="10" rows="10" placeholder="Type something to translate to banana."></textarea>
+    </section>
 
-
-    </body>
-    </html>
+    <!-- button -->
+    <button id="btn-translate">TRANSLATE</button>
+    
+    <!-- output text-area -->
+    <section>
+        <textarea class="text-area" name="text-area-output" id="text-area-output" cols="10" rows="30" placeholder="Your Banana Translation will appear here." readonly></textarea>
+    </section>
+    
+    <!-- footer -->
+    <footer>
+        <div class="heading-footer">Get in touch with me</div>
+        <ul>
+            <li>
+                <a href="https://github.com/simrannazareth7" target="blank"><i class="fab fa-github"></i> GitHub</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </li>
+           
+            <li>
+                <a href="https://www.instagram.com/nazarethsimran" target="blank"><i class="fab fa-instagram"></i> Instagram</a>
+            </li>
+        </ul>
+    </footer>
+    
+    
+    <script src="app.js"></script>
+</body>
+</html>
